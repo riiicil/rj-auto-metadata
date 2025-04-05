@@ -8,10 +8,10 @@ Tujuan gambar sampel:
 3. Memberikan contoh bagaimana metadata akan ditambahkan ke gambar
 
 Daftar gambar sampel:
-- sample1.jpg - Foto lanskap (2.1 MB)
-- sample2.jpg - Foto portrait (1.5 MB)
-- sample3.png - Gambar dengan latar belakang transparan (3.2 MB)
-- sample4.jpg - Gambar besar yang akan dikompresi otomatis (8.5 MB)
+- sample1.jpg - Foto lanskap (2.07 MB)
+- sample2.jepg - Foto portrait (1.59 MB)
+- sample3.png - Gambar dengan latar belakang transparan (7.97 MB)
+- sample4.jpg - Gambar besar yang akan dikompresi otomatis (20.9 MB)
 
 Cara menggunakan gambar sampel:
 1. Salin gambar-gambar ini ke folder terpisah untuk pengujian
