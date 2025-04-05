@@ -1,0 +1,59 @@
+=== PANDUAN CEPAT RJ AUTO METADATA ===
+
+Aplikasi ini adalah solusi all-in-one yang menggunakan AI untuk menghasilkan metadata berkualitas tinggi untuk gambar-gambar Anda.
+
+
+=== PERINGATAN KESELAMATAN DATA ===
+
+⚠️ PENTING: SELALU GUNAKAN SALINAN GAMBAR, BUKAN FILE ASLI!
+
+- Aplikasi ini MENGHAPUS file input setelah berhasil diproses
+- Selalu buat backup file sebelum menggunakannya dengan aplikasi ini
+- Jangan gunakan folder dengan file-file penting sebagai folder input
+
+
+=== PANDUAN CEPAT ===
+
+1. PERSIAPAN:
+   - Double-klik RJ_Auto_Metadata.exe untuk memulai
+   - Pertama kali, Anda perlu menyetujui Syarat dan Ketentuan
+
+2. SETUP API KEY:
+   - Masukkan minimal satu API key Gemini (lihat API_Keys_Setup.txt)
+   - Klik "Save" untuk menyimpan key
+
+3. PILIH FOLDER:
+   - Klik "Browse" di samping "Input Folder" dan pilih folder berisi gambar
+   - Klik "Browse" di samping "Output Folder" dan pilih lokasi untuk hasil
+
+4. PILIH PENGATURAN:
+   - Rename Files: Centang jika ingin file diberi nama sesuai judul AI
+   - Workers: Tentukan jumlah proses parallel (3-5 ideal untuk performa)
+   - Delay (s): Jeda antar batch (10-20 detik disarankan untuk menghindari rate limit)
+   - Tema: Pilih tema visual yang Anda sukai
+
+5. PROSES:
+   - Klik "Mulai Proses" untuk mulai memproses gambar
+   - Pantau progres di area log di bagian bawah
+   - Gunakan "Hentikan" untuk menghentikan proses jika diperlukan
+
+6. HASIL:
+   - Gambar diproses akan disalin ke folder output
+   - Metadata (judul, deskripsi, kata kunci) ditambahkan ke file EXIF
+   - File CSV akan dibuat dengan semua metadata di folder output/metadata_csv/
+   - File asli akan dihapus setelah berhasil diproses
+
+=== FITUR UTAMA ===
+- Kompresi otomatis gambar besar (>5MB)
+- Multi-threading untuk pemrosesan cepat
+- Penamaan file berbasis AI
+- Metadata tersimpan dalam EXIF (untuk JPG/JPEG)
+
+=== FORMAT YANG DIDUKUNG ===
+JPG, JPEG, PNG
+
+=== CATATAN PENTING ===
+- RJ Auto Metadata adalah aplikasi portable - tidak ada yang perlu diinstal
+- Semua tools termasuk ExifTool sudah terintegrasi di dalam aplikasi
+- Pastikan anti-virus Anda tidak memblokir aplikasi
+- Jika ragu, klik kanan pada .exe dan pilih "Run as administrator"

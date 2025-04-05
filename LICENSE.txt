@@ -1,0 +1,48 @@
+PERJANJIAN LISENSI PENGGUNA AKHIR - RJ AUTO METADATA v1.0
+
+Efektif per: April 2025
+
+HARAP BACA PERJANJIAN LISENSI INI DENGAN SEKSAMA SEBELUM MENGGUNAKAN PERANGKAT LUNAK INI.
+
+1. PEMBERIAN LISENSI
+   Riiicil ("Pemberi Lisensi") memberikan kepada Anda ("Penerima Lisensi") lisensi 
+   terbatas, non-eksklusif, tidak dapat dipindahtangankan, tidak dapat disublisensikan 
+   untuk menggunakan salinan Perangkat Lunak RJ Auto Metadata ("Perangkat Lunak") 
+   untuk penggunaan pribadi atau internal sesuai dengan ketentuan Perjanjian ini.
+
+2. PEMBATASAN PENGGUNAAN
+   Penerima Lisensi tidak boleh:
+   a) Menyalin, memodifikasi, atau mendistribusikan Perangkat Lunak
+   b) Melakukan rekayasa balik (reverse engineering), mendekompilasi, atau membongkar 
+      Perangkat Lunak
+   c) Menjual, menyewakan, menyublisensikan, atau mentransfer Perangkat Lunak
+   d) Menghapus pemberitahuan hak cipta atau kepemilikan dari Perangkat Lunak
+
+3. KEPEMILIKAN
+   Perangkat Lunak ini dilindungi oleh undang-undang hak cipta dan ketentuan perjanjian 
+   internasional. Pemberi Lisensi mempertahankan semua hak, kepemilikan, dan kepentingan 
+   dalam Perangkat Lunak ini.
+
+4. JAMINAN TERBATAS
+   Perangkat Lunak ini disediakan "sebagaimana adanya" tanpa jaminan apa pun, baik tersurat 
+   maupun tersirat. Pemberi Lisensi tidak menjamin bahwa Perangkat Lunak akan bebas kesalahan 
+   atau berfungsi tanpa gangguan.
+
+5. BATASAN TANGGUNG JAWAB
+   Dalam keadaan apa pun Pemberi Lisensi tidak bertanggung jawab atas kerusakan langsung, 
+   tidak langsung, insidental, khusus, atau konsekuensial yang timbul dari penggunaan atau 
+   ketidakmampuan menggunakan Perangkat Lunak.
+
+6. PENGGUNAAN API PIHAK KETIGA
+   Penerima Lisensi bertanggung jawab untuk memperoleh dan menggunakan API key sesuai dengan 
+   syarat dan ketentuan penyedia layanan pihak ketiga (seperti Gemini API).
+
+7. PENGAKHIRAN
+   Lisensi ini akan berakhir secara otomatis jika Penerima Lisensi gagal mematuhi ketentuan 
+   apa pun dari Perjanjian ini. Setelah pengakhiran, Penerima Lisensi harus berhenti 
+   menggunakan dan menghapus semua salinan Perangkat Lunak.
+
+8. HUKUM YANG BERLAKU
+   Perjanjian ini diatur oleh hukum Indonesia.
+
+© Riiicil 2025. Semua hak dilindungi undang-undang.

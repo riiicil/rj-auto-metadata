@@ -1,0 +1,91 @@
+=== PANDUAN PEMECAHAN MASALAH RJ AUTO METADATA ===
+
+Berikut adalah solusi untuk masalah umum yang mungkin Anda alami:
+
+=== MASALAH STARTUP ===
+
+1. "Aplikasi tidak dapat dijalankan"
+   - Coba klik kanan pada RJ_Auto_Metadata.exe dan pilih "Run as administrator"
+   - Pastikan Windows Defender atau antivirus lain tidak memblokir aplikasi
+   - Coba pindahkan aplikasi ke folder lain yang tidak memerlukan izin khusus
+   - Pastikan Windows Anda telah diupdate
+
+2. "ExifTool tidak ditemukan"
+   - Meskipun ExifTool sudah terintegrasi, Windows kadang mencegah ekstraksi file
+   - Coba jalankan sebagai administrator
+   - Matikan sementara Windows Defender atau antivirus
+   - Pindahkan aplikasi ke folder yang tidak berada di drive jaringan atau terkompresi
+
+=== MASALAH API ===
+
+1. "API Error" atau "Maximum retries exceeded"
+   - Periksa koneksi internet Anda
+   - Pastikan API key diketik dengan benar (tanpa spasi tambahan)
+   - Periksa apakah Anda telah mencapai batas kuota harian
+   - Coba tambahkan beberapa API key berbeda
+   - Tingkatkan pengaturan "Delay" untuk menghindari rate limiting
+
+2. "Konten diblokir oleh Gemini"
+   - Pastikan gambar Anda tidak mengandung konten yang sensitif
+   - Beberapa gambar dengan NSFW mungkin diblokir oleh kebijakan keamanan API
+
+=== MASALAH PEMROSESAN ===
+
+1. "Aplikasi berhenti atau lambat merespons"
+   - Kurangi jumlah workers
+   - Tingkatkan delay antar batch
+   - Kurangi jumlah file yang diproses sekaligus
+   - Tutup aplikasi lain yang berjalan
+   - Pastikan komputer memiliki memori yang cukup
+
+2. "Gagal menyalin" atau "Gagal menulis EXIF"
+   - Pastikan folder output dapat ditulis (tidak hanya-baca)
+   - Pastikan file di folder output tidak sedang dibuka oleh aplikasi lain
+   - Coba gunakan folder output di drive lokal (bukan jaringan)
+
+=== MASALAH OUTPUT ===
+
+1. "Tidak ada metadata di file output"
+   - Hanya file JPG/JPEG yang mendukung penulisan EXIF
+   - File PNG hanya disalin tanpa metadata tertanam
+   - Periksa file CSV di folder output/metadata_csv/ untuk melihat metadata
+
+2. "File output rusak"
+   - Ini mungkin disebabkan oleh gangguan saat proses menulis EXIF
+   - Coba proses file satu per satu dengan delay lebih tinggi
+
+=== PEMULIHAN SISTEM ===
+
+Jika aplikasi benar-benar bermasalah:
+1. Hapus file config.json di folder aplikasi untuk mengatur ulang semua pengaturan
+2. Hapus folder processed_cache.json untuk membersihkan cache
+3. Unduh versi terbaru dari situs resmi
+
+=== TENTANG KOMPRESI DAN KESELAMATAN DATA ===
+
+1. "Apa yang dimaksud dengan kompresi otomatis?"
+   - Aplikasi hanya mengkompresi gambar besar untuk PENGIRIMAN ke API
+   - Kompresi ini sementara dan tidak mempengaruhi file output akhir
+   - File output yang disimpan di folder output tetap berkualitas asli
+   - Ini hanya optimasi untuk kecepatan dan penghematan kuota API
+
+2. "Apakah aplikasi menghapus file asli saya?"
+   - YA! Aplikasi menghapus file dari folder input setelah berhasil diproses
+   - Inilah mengapa Anda HARUS menggunakan salinan/duplikat file, bukan file asli
+   - Jika proses gagal, file input TIDAK dihapus
+
+3. "Cara terbaik untuk mengamankan data saya"
+   - Selalu siapkan folder khusus dengan SALINAN gambar untuk diproses
+   - Jangan pernah gunakan folder dengan file-file penting sebagai folder input
+   - Lakukan pengujian dengan beberapa file terlebih dahulu sebelum memproses koleksi besar
+   - Periksa hasil di folder output sebelum menghapus salinan backup Anda
+
+4. "Cara memulihkan jika terjadi masalah"
+   - Karena Anda menggunakan salinan file (bukan asli), Anda dapat mencoba proses ulang
+   - Jika folder output berisi file rusak, hapus dan mulai proses baru
+   - File CSV tetap berisi metadata meskipun file gambar bermasalah
+
+
+=== MASIH BERMASALAH? ===
+Hubungi dukungan teknis kami:
+https://s.id/eIUOr

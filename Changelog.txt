@@ -1,0 +1,26 @@
+=== RJ AUTO METADATA - CHANGELOG ===
+
+Versi 1.0 (April 2025)
+* Rilis awal aplikasi
+* Fitur utama:
+  - Pemrosesan metadata otomatis menggunakan Gemini API
+  - Antarmuka grafis berbasis customtkinter
+  - Pengolahan gambar batch dengan multi-threading
+  - Kompresi otomatis untuk file besar
+  - Penyimpanan metadata ke EXIF untuk format JPG/JPEG
+  - Ekspor metadata ke CSV
+  - Penamaan ulang file berdasarkan metadata
+  - Tema gelap/terang dan kustomisasi
+  - Sistem cache untuk mempercepat pemrosesan file duplikat
+  - Pengaturan workers dan delay antar batch
+* Dukungan format: JPG, JPEG, PNG
+* Integrasi dengan ExifTool untuk penulisan metadata
+* Sistem logging komprehensif
+
+=== RENCANA PENGEMBANGAN MASA DEPAN ===
+* Dukungan format tambahan: .TIFF, .WebP, .eps, .ai, .scg, .psd, .mp4, .mov, .avi
+* Editor metadata manual
+* Fitur pencadangan dan pemulihan
+* Pilihan penyedia API alternatif
+* Mode operasi offline (menggunakan model lokal)
+* Integrasi dengan layanan cloud storage

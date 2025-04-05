@@ -1,0 +1,55 @@
+=== PANDUAN PENGATURAN API KEY GEMINI ===
+
+RJ Auto Metadata menggunakan Gemini API dari Google untuk menganalisis gambar dan menghasilkan metadata.
+Berikut cara mendapatkan dan mengatur API key Gemini:
+
+=== MENDAPATKAN API KEY GEMINI ===
+
+1. Kunjungi Google AI Studio di: https://makersuite.google.com/app/apikey
+   
+2. Login dengan akun Google Anda
+   (Jika belum memiliki akun Google, Anda perlu membuat akun baru)
+   
+3. Di halaman "API Keys", klik tombol "Create API Key"
+   
+4. Beri nama API key Anda (misalnya "RJ Auto Metadata")
+   
+5. Salin API key yang dihasilkan ke clipboard
+   (Format API key: AIza...)
+   
+6. PENTING: Jaga API key Anda tetap rahasia!
+   API key memberikan akses ke kuota Gemini Anda dan tidak boleh dibagikan.
+
+=== MEMASUKKAN API KEY KE RJ AUTO METADATA ===
+
+1. Buka aplikasi RJ Auto Metadata
+   
+2. Di bagian "API Keys", tempel API key Anda (satu key per baris)
+   
+3. Klik tombol "Save" untuk menyimpan API key
+   
+4. OPSIONAL: Anda dapat menambahkan beberapa API key jika memilikinya
+   Aplikasi akan secara otomatis mendistribusikan beban kerja di antara key tersebut
+
+=== KUOTA DAN BATASAN ===
+
+Gemini API memiliki batasan penggunaan:
+* Pengguna baru mendapatkan kuota gratis selama masa uji coba
+* Setelah masa uji coba, Anda perlu berlangganan paket berbayar
+* Setiap API key memiliki batasan rate limit (jumlah permintaan per menit)
+
+Catatan untuk penggunaan optimal:
+* Jika memproses banyak gambar, tambahkan lebih banyak API key
+* Gunakan pengaturan "Delay" yang lebih tinggi untuk menghindari rate limiting
+* Jika mendapatkan error API, biasanya disebabkan oleh batasan rate atau kuota
+
+=== PEMECAHAN MASALAH ===
+
+Jika mengalami masalah dengan API key:
+* Pastikan Anda telah menyalin key dengan benar (tanpa spasi tambahan)
+* Periksa apakah API key masih aktif di Google AI Studio
+* Coba buat API key baru jika key lama tidak berfungsi
+* Periksa koneksi internet Anda
+
+Untuk informasi lebih lanjut tentang Gemini API, kunjungi:
+https://ai.google.dev/docs

@@ -1,0 +1,43 @@
+PETUNJUK PEMASANGAN DAN PENGGUNAAN EXIFTOOL
+
+ExifTool adalah alat yang sangat penting untuk RJ Auto Metadata karena digunakan untuk menulis metadata
+ke file gambar. Aplikasi ini TIDAK AKAN BERFUNGSI tanpa ExifTool terinstal dengan benar.
+
+=== OPSI 1: MENGGUNAKAN EXIFTOOL YANG DISERTAKAN (DISARANKAN) ===
+
+Dalam paket aplikasi ini, file exiftool.exe sudah disediakan. Untuk menggunakannya:
+
+1. Pastikan exiftool.exe berada dalam folder yang sama dengan RJ_Auto_Metadata.exe
+2. Aplikasi akan secara otomatis menemukan dan menggunakan exiftool.exe ini
+
+=== OPSI 2: INSTALASI MANUAL EXIFTOOL ===
+
+Jika Anda perlu memasang ExifTool secara manual:
+
+1. Unduh ExifTool dari situs resmi: https://exiftool.org/
+2. Pilih "Windows Executable" dan unduh file .zip terbaru
+3. Ekstrak file exiftool(-k).exe dari arsip
+4. Ganti nama file menjadi "exiftool.exe"
+5. Simpan file di salah satu lokasi berikut:
+   a. Folder yang sama dengan RJ_Auto_Metadata.exe (paling mudah)
+   b. Folder dalam Windows PATH (misalnya C:\Windows)
+   c. Folder khusus dan tambahkan ke PATH sistem Windows
+
+=== VERIFIKASI INSTALASI ===
+
+Untuk memverifikasi ExifTool terpasang dengan benar:
+1. Buka Command Prompt (cmd)
+2. Ketik: exiftool -ver
+3. Anda seharusnya melihat nomor versi ExifTool (misalnya 12.50)
+
+=== TROUBLESHOOTING ===
+
+Jika RJ Auto Metadata menampilkan pesan "Exiftool tidak ditemukan":
+
+1. Pastikan file exiftool.exe berada dalam folder yang sama dengan aplikasi
+2. Jika Anda menginstal di folder lain, pastikan folder tersebut dalam PATH Windows
+3. Restart aplikasi setelah melakukan perubahan
+4. Jika masih bermasalah, coba jalankan aplikasi sebagai administrator
+
+Catatan: ExifTool dikembangkan oleh Phil Harvey dan merupakan perangkat lunak terpisah
+dengan lisensinya sendiri. Lihat https://exiftool.org/ untuk informasi lebih lanjut.
